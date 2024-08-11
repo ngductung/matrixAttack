@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quản lý Kỹ Thuật</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <button id="modeToggle">Switch to Dark Mode</button>
+    <table>
+      <thead>
+        <!-- <tr>
+          <th onmouseover="showDropdown(this)" onmouseout="hideDropdown(this)">
+            Bước 1
+            <div class="dropdown-content">
+              <a href="#" onclick="selectTechnique('A1', 1)">A1</a>
+              <div class="sub-dropdown-content">
+                <a href="#" onclick="selectSubTechnique('A1a', 1)">A1a</a>
+                <a href="#" onclick="selectSubTechnique('A1b', 1)">A1b</a>
+              </div>
+              <a href="#" onclick="selectTechnique('A2', 1)">A2</a>
+              <a href="#" onclick="selectTechnique('A3', 1)">A3</a>
+              <a href="#" onclick="selectTechnique('A4', 1)">A4</a>
+            </div>
+          </th>
+          <th onmouseover="showDropdown(this)" onmouseout="hideDropdown(this)">
+            Bước 2
+            <div class="dropdown-content">
+              <a href="#" onclick="selectTechnique('B1', 2)">B1</a>
+              <a href="#" onclick="selectTechnique('B2', 2)">B2</a>
+              <a href="#" onclick="selectTechnique('B3', 2)">B3</a>
+              <a href="#" onclick="selectTechnique('B4', 2)">B4</a>
+            </div>
+          </th>
+          <th onmouseover="showDropdown(this)" onmouseout="hideDropdown(this)">
+            Bước 3
+            <div class="dropdown-content">
+              <a href="#" onclick="selectTechnique('C1', 3)">C1</a>
+              <a href="#" onclick="selectTechnique('C2', 3)">C2</a>
+              <a href="#" onclick="selectTechnique('C3', 3)">C3</a>
+              <a href="#" onclick="selectTechnique('C4', 3)">C4</a>
+            </div>
+          </th>
+        </tr> -->
+      </thead>
+      <tbody>
+        <!-- <tr>
+          <td class="selected-techniques" data-step="1"></td>
+          <td class="selected-techniques" data-step="2"></td>
+          <td class="selected-techniques" data-step="3"></td>
+        </tr> -->
+      </tbody>
+    </table>
+
+    <textarea id="noteArea" style="display: none"></textarea>
+    <button id="exportButton" onclick="exportData()">Export</button>
+    <input
+      type="file"
+      id="importInput"
+      accept=".json"
+      onchange="importData(event)"
+    />
+
+    <script src="script.js"></script>
+  </body>
+</html>

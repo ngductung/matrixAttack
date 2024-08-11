@@ -1,0 +1,1768 @@
+{
+    "steps": [
+        {
+            "name": "Reconnaissance",
+            "techniques": [
+                {
+                    "name": "Active Scanning",
+                    "subtechniques": [
+                        "Scanning IP Blocks",
+                        "Vulnerability Scanning",
+                        "Wordlist Scanning"
+                    ]
+                },
+                {
+                    "name": "Gather Victim Host Information",
+                    "subtechniques": [
+                        "Hardware",
+                        "Software",
+                        "Firmware",
+                        "Client Configurations"
+                    ]
+                },
+                {
+                    "name": "Gather Victim Identity Information",
+                    "subtechniques": [
+                        "Credentials",
+                        "Email Addresses",
+                        "Employee Names"
+                    ]
+                },
+                {
+                    "name": "Gather Victim Network Information",
+                    "subtechniques": [
+                        "Domain Properties",
+                        "DNS",
+                        "Network Trust Dependencies",
+                        "IP Addresses",
+                        "Network Security Applicances"
+                    ]
+                },
+                {
+                    "name": "Gather Victim Org Information",
+                    "subtechniques": [
+                        "Determine Physical Locations",
+                        "Business Relationships",
+                        "Identify Business Tempo",
+                        "Identify Roles"
+                    ]
+                },
+                {
+                    "name": "Phishing for Information",
+                    "subtechniques": [
+                        "Spearphishing Service",
+                        "Spearphishing Attachment",
+                        "Spearphishing Link",
+                        "Spearphishing Voice"
+                    ]
+                },
+                {
+                    "name": "Search Closed Sources",
+                    "subtechniques": [
+                        "Threat Intel Vendors",
+                        "Purchase Technical Data"
+                    ]
+                },
+                {
+                    "name": "Search Open Technical Databases",
+                    "subtechniques": [
+                        "Social Media",
+                        "Search Engines",
+                        "Code Repositories"
+                    ]
+                },
+                {
+                    "name": "Search Victim-Owned Websites",
+                    "subtechniques": []
+                }
+            ]
+        },
+        {
+            "name": "Resource Development",
+            "techniques": [
+                {
+                    "name": "Acquire Access",
+                    "subtechniques": []
+                },
+                {
+                    "name": "Acquire Infrastructure",
+                    "subtechniques": [
+                        "Domains",
+                        "DNS Server",
+                        "Virtual Private Server",
+                        "Server",
+                        "Botnet",
+                        "Web Services",
+                        "Serverless",
+                        "Malvertising"
+                    ]
+                },
+                {
+                    "name": "Compromise Accounts",
+                    "subtechniques": [
+                        "Social Media Accounts",
+                        "Email Accounts",
+                        "Cloud Accounts"
+                    ]
+                },
+                {
+                    "name": "Compromise Infrastructure",
+                    "subtechniques": [
+                        "Domains",
+                        "DNS Server",
+                        "Virtual Private Server",
+                        "Server",
+                        "Botnet",
+                        "Web Services",
+                        "Serverless",
+                        "Network Devices"
+                    ]
+                },
+                {
+                    "name": "Develop Capabilities",
+                    "subtechniques": [
+                        "Malware",
+                        "Code Signing Certificates",
+                        "Digital Certificates",
+                        "Exploits"
+                    ]
+                },
+                {
+                    "name": "Obtain Capabilities",
+                    "subtechniques": [
+                        "Malware",
+                        "Tools",
+                        "Code Signing Certificates",
+                        "Digital Certificates",
+                        "Exploits",
+                        "Vulnerabilites",
+                        "Artificial Intelligence"
+                    ]
+                },
+                {
+                    "name": "Stage Capabilities",
+                    "subtechniques": [
+                        "Upload Malware",
+                        "Upload Tool",
+                        "Install Digital Certificate",
+                        "Drive-by Target",
+                        "Link Target",
+                        "SEO Poisoning"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Initial Access",
+            "techniques": [
+                {
+                    "name": "Content Injection",
+                    "subtechniques": []
+                },
+                {
+                    "name": "Drive-by Compromise",
+                    "subtechniques": []
+                },
+                {
+                    "name": "Exploit Public-Facing Application",
+                    "subtechniques": []
+                },
+                {
+                    "name": "External Remote Services",
+                    "subtechniques": []
+                },
+                {
+                    "name": "Hardware Additions",
+                    "subtechniques": []
+                },
+                {
+                    "name": "Phishing",
+                    "subtechniques": [
+                        "Spearphishing Attachment",
+                        "Spearphishing Link",
+                        "Spearphishing via Service",
+                        "Spearphishing Voice"
+                    ]
+                },
+                {
+                    "name": "Replication Through Removable Media",
+                    "subtechniques": []
+                },
+                {
+                    "name": "Supply Chain Compromise",
+                    "subtechniques": [
+                        "Compromise Software Dependencies and Development Tools",
+                        "Compromise Software Supply Chain",
+                        "Compromise Hardware Supply Chain"
+                    ]
+                },
+                {
+                    "name": "Trusted Relationship",
+                    "subtechniques": []
+                },
+                {
+                    "name": "Valid Accounts",
+                    "subtechniques": [
+                        "Default Accounts",
+                        "Domain Accounts",
+                        "Local Accounts",
+                        "Cloud Accounts"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Execution",
+            "techniques": [
+                {
+                    "name": "Cloud Administration Command",
+                    "subtechniques": [
+                        "PowerShell",
+                        "AppleScript",
+                        "Windows Command Shell",
+                        "Unix Shell",
+                        "Visual Basic",
+                        "Python",
+                        "JavaScript",
+                        "Network Device CLI",
+                        "Cloud API",
+                        "AutoHotKey & AutoIT"
+                    ]
+                },
+                {
+                    "name": "Container Administration Command",
+                    "subtechniques": []
+                },
+                {
+                    "name": "Deploy Container",
+                    "subtechniques": []
+                },
+                {
+                    "name": "Exploitation for Client Execution",
+                    "subtechniques": []
+                },
+                {
+                    "name": "Inter-Process Communication ",
+                    "subtechniques": [
+                        "Component Object Model",
+                        "Dynamic Data Exchange",
+                        "XPC Services"
+                    ]
+                },
+                {
+                    "name": "Native API",
+                    "subtechniques": []
+                },
+                {
+                    "name": "Scheduled Task/Job",
+                    "subtechniques": [
+                        "At",
+                        "Cron",
+                        "Scheduled Task",
+                        "Systemd Timers",
+                        "Container Orchestration Job"
+                    ]
+                },
+                {
+                    "name": "Serverless Execution",
+                    "subtechniques": []
+                },
+                {
+                    "name": "Shared Modules",
+                    "subtechniques": []
+                },
+                {
+                    "name": "Software Deployment Tools",
+                    "subtechniques": []
+                },
+                {
+                    "name": "System Services",
+                    "subtechniques": [
+                        "Launchctl",
+                        "Service Execution"
+                    ]
+                },
+                {
+                    "name": "User Execution",
+                    "subtechniques": [
+                        "Malicious Link",
+                        "Malicious File",
+                        "Malicious Image"
+                    ]
+                },
+                {
+                    "name": "Windows Management Instrumentation",
+                    "subtechniques": []
+                }
+            ]
+        },
+        {
+            "name": "Persistence",
+            "techniques": [
+                {
+                    "name": "Account Manipulation",
+                    "subtechniques": [
+                        "Additional Cloud Credentials",
+                        "Additional Email Delegate Permissions",
+                        "Additional Cloud Roles",
+                        "SSH Authorized Keys",
+                        "Device Registration",
+                        "Additional Container Cluster Roles"
+                    ]
+                },
+                {
+                    "name": "BITS Jobs",
+                    "subtechniques": []
+                },
+                {
+                    "name": "Boot or Logon Autostart Execution",
+                    "subtechniques": [
+                        "Registry Run Keys / Startup Folder",
+                        "Authentication Package",
+                        "Time Providers",
+                        "Winlogon Helper DLL",
+                        "Security Support Provider",
+                        "Kernel Modules and Extensions",
+                        "Re-opened Applications",
+                        "LSASS Driver",
+                        "Shortcut Modification",
+                        "Port Monitors",
+                        "Print Processors",
+                        "XDG Autostart Entries",
+                        "Active Setup",
+                        "Login Items"
+                    ]
+                },
+                {
+                    "name": "Browser Extensions",
+                    "subtechniques": []
+                },
+                {
+                    "name": "Compromise Host Software Binary",
+                    "subtechniques": []
+                },
+                {
+                    "name": "Create Account",
+                    "subtechniques": [
+                        "Local Account",
+                        "Domain Account",
+                        "Cloud Account"
+                    ]
+                },
+                {
+                    "name": "Create or Modify System Process",
+                    "subtechniques": [
+                        "Launch Agent",
+                        "Systemd Service",
+                        "Windows Service",
+                        "Launch Daemon",
+                        "Container Service"
+                    ]
+                },
+                {
+                    "name": "Event Triggered Execution",
+                    "subtechniques": [
+                        "Change Default File Association",
+                        "Screensaver",
+                        "Windows Management Instrumentation Event Subscription",
+                        "Unix Shell Configuration Modification",
+                        "Trap",
+                        "LC_LOAD_DYLIB Addition",
+                        "Netsh Helper DLL",
+                        "Accessibility Features",
+                        "AppCert DLLs",
+                        "AppInit DLLs",
+                        "Application Shimming",
+                        "Image File Execution Options Injection",
+                        "PowerShell Profile",
+                        "Emond",
+                        "Component Object Model Hijacking",
+                        "Installer Packages"
+                    ]
+                },
+                {
+                    "name": "External Remote Services",
+                    "subtechniques": []
+                },
+                {
+                    "name": "Hijack Execution Flow",
+                    "subtechniques": [
+                        "DLL Search Order Hijacking",
+                        "DLL Side-Loading",
+                        "Dylib Hijacking",
+                        "Executable Installer File Permissions Weakness",
+                        "Dynamic Linker Hijacking",
+                        "Path Interception by PATH Environment Variable",
+                        "Path Interception by Search Order Hijacking",
+                        "Path Interception by Unquoted Path",
+                        "Services File Permissions Weakness",
+                        "Services Registry Permissions Weakness",
+                        "COR_PROFILER",
+                        "KernelCallbackTable",
+                        "AppDomainManager"
+                    ]
+                },
+                {
+                    "name": "Implant Internal Image",
+                    "subtechniques": []
+                },
+                {
+                    "name": "Modify Authentication Process",
+                    "subtechniques": [
+                        "Domain Controller Authentication",
+                        "Password Filter DLL",
+                        "Pluggable Authentication Modules",
+                        "Network Device Authentication",
+                        "Reversible Encryption",
+                        "Multi-Factor Authentication",
+                        "Hybrid Identity",
+                        "Network Provider DLL",
+                        "Conditional Access Policies"
+                    ]
+                },
+                {
+                    "name": "Office Application Startup",
+                    "subtechniques": [
+                        "Office Template Macros",
+                        "Office Test",
+                        "Outlook Forms",
+                        "Outlook Home Page",
+                        "Outlook Rules",
+                        "Add-ins"
+                    ]
+                },
+                {
+                    "name": "Power Settings",
+                    "subtechniques": []
+                },
+                {
+                    "name": "Pre-OS Boot",
+                    "subtechniques": [
+                        "System Firmware",
+                        "Component Firmware",
+                        "Bootkit",
+                        "ROMMONkit",
+                        "TFTP Boot"
+                    ]
+                },
+                {
+                    "name": "Scheduled Task/Job",
+                    "subtechniques": [
+                        "At",
+                        "Cron",
+                        "Scheduled Task",
+                        "Systemd Timers",
+                        "Container Orchestration Job"
+                    ]
+                },
+                {
+                    "name": "Server Software Component",
+                    "subtechniques": [
+                        "SQL Stored Procedures",
+                        "Transport Agent",
+                        "Web Shell",
+                        "IIS Components",
+                        "Terminal Services DLL"
+                    ]
+                },
+                {
+                    "name": "Traffic Signaling",
+                    "subtechniques": [
+                        "Port Knocking",
+                        "Socket Filters"
+                    ]
+                },
+                {
+                    "name": "Valid Accounts",
+                    "subtechniques": [
+                        "Default Accounts",
+                        "Domain Accounts",
+                        "Local Accounts",
+                        "Cloud Accounts"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Privilege Escalation",
+            "techniques": [
+                {
+                    "name": "Abuse Elevation Control Mechanism",
+                    "subtechniques": [
+                        "Setuid and Setgid",
+                        "Bypass User Account Control",
+                        "Sudo and Sudo Caching",
+                        "Elevated Execution with Prompt",
+                        "Temporary Elevated Cloud Access",
+                        "TCC Manipulation"
+                    ]
+                },
+                {
+                    "name": "Access Token Manipulation",
+                    "subtechniques": [
+                        "Token Impersonation/Theft",
+                        "Create Process with Token",
+                        "Make and Impersonate Token",
+                        "Parent PID Spoofing",
+                        "SID-History Injection"
+                    ]
+                },
+                {
+                    "name": "Account Manipulation",
+                    "subtechniques": [
+                        "Additional Cloud Credentials",
+                        "Additional Email Delegate Permissions",
+                        "Additional Cloud Roles",
+                        "SSH Authorized Keys",
+                        "Device Registration",
+                        "Additional Container Cluster Roles"
+                    ]
+                },
+                {
+                    "name": "Boot or Logon Autostart Execution",
+                    "subtechniques": [
+                        "Registry Run Keys / Startup Folder",
+                        "Authentication Package",
+                        "Time Providers",
+                        "Winlogon Helper DLL",
+                        "Security Support Provider",
+                        "Kernel Modules and Extensions",
+                        "Re-opened Applications",
+                        "LSASS Driver",
+                        "Shortcut Modification",
+                        "Port Monitors",
+                        "Print Processors",
+                        "XDG Autostart Entries",
+                        "Active Setup",
+                        "Login Items"
+                    ]
+                },
+                {
+                    "name": "Boot or Logon Initialization Scripts",
+                    "subtechniques": [
+                        "Logon Script (Windows)",
+                        "Login Hook",
+                        "Network Logon Script",
+                        "RC Scripts",
+                        "Startup Items"
+                    ]
+                },
+                {
+                    "name": "Create or Modify System Process",
+                    "subtechniques": [
+                        "Launch Agent",
+                        "Systemd Service",
+                        "Windows Service",
+                        "Launch Daemon",
+                        "Container Service"
+                    ]
+                },
+                {
+                    "name": "Domain or Tenant Policy Modification",
+                    "subtechniques": [
+                        "Group Policy Modification",
+                        "Trust Modification"
+                    ]
+                },
+                {
+                    "name": "Escape to Host",
+                    "subtechniques": []
+                },
+                {
+                    "name": "External Remote Services",
+                    "subtechniques": []
+                },
+                {
+                    "name": "Event Triggered Execution",
+                    "subtechniques": [
+                        "Change Default File Association",
+                        "Screensaver",
+                        "Windows Management Instrumentation Event Subscription",
+                        "Unix Shell Configuration Modification",
+                        "Trap",
+                        "LC_LOAD_DYLIB Addition",
+                        "Netsh Helper DLL",
+                        "Accessibility Features",
+                        "AppCert DLLs",
+                        "AppInit DLLs",
+                        "Application Shimming",
+                        "Image File Execution Options Injection",
+                        "PowerShell Profile",
+                        "Emond",
+                        "Component Object Model Hijacking",
+                        "Installer Packages"
+                    ]
+                },
+                {
+                    "name": "Exploitation for Privilege Escalation",
+                    "subtechniques": []
+                },
+                {
+                    "name": "Hijack Execution Flow",
+                    "subtechniques": [
+                        "DLL Search Order Hijacking",
+                        "DLL Side-Loading",
+                        "Dylib Hijacking",
+                        "Executable Installer File Permissions Weakness",
+                        "Dynamic Linker Hijacking",
+                        "Path Interception by PATH Environment Variable",
+                        "Path Interception by Search Order Hijacking",
+                        "Path Interception by Unquoted Path",
+                        "Services File Permissions Weakness",
+                        "Services Registry Permissions Weakness",
+                        "COR_PROFILER",
+                        "KernelCallbackTable",
+                        "AppDomainManager"
+                    ]
+                },
+                {
+                    "name": "Process Injection",
+                    "subtechniques": [
+                        "Dynamic-link Library Injection",
+                        "Portable Executable Injection",
+                        "Thread Execution Hijacking",
+                        "Asynchronous Procedure Call",
+                        "Thread Local Storage",
+                        "Ptrace System Calls",
+                        "Proc Memory",
+                        "Extra Window Memory Injection",
+                        "Process Hollowing",
+                        "Process DoppelgÃ¤nging",
+                        "VDSO Hijacking",
+                        "ListPlanting"
+                    ]
+                },
+                {
+                    "name": "Scheduled Task/Job",
+                    "subtechniques": [
+                        "At",
+                        "Cron",
+                        "Scheduled Task",
+                        "Systemd Timers",
+                        "Container Orchestration Job"
+                    ]
+                },
+                {
+                    "name": "Valid Accounts",
+                    "subtechniques": [
+                        "Default Accounts",
+                        "Domain Accounts",
+                        "Local Accounts",
+                        "Cloud Accounts"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Defense Evasion",
+            "techniques": [
+                {
+                    "name": "Abuse Elevation Control Mechanism",
+                    "subtechniques": [
+                        "Setuid and Setgid",
+                        "Bypass User Account Control",
+                        "Sudo and Sudo Caching",
+                        "Elevated Execution with Prompt",
+                        "Temporary Elevated Cloud Access",
+                        "TCC Manipulation"
+                    ]
+                },
+                {
+                    "name": "Access Token Manipulation",
+                    "subtechniques": [
+                        "Token Impersonation/Theft",
+                        "Create Process with Token",
+                        "Make and Impersonate Token",
+                        "Parent PID Spoofing",
+                        "SID-History Injection"
+                    ]
+                },
+                {
+                    "name": "BITS Jobs",
+                    "subtechniques": []
+                },
+                {
+                    "name": "Build Image on Host",
+                    "subtechniques": []
+                },
+                {
+                    "name": "Debugger Evasion",
+                    "subtechniques": []
+                },
+                {
+                    "name": "Deobfuscate/Decode Files or Information",
+                    "subtechniques": []
+                },
+                {
+                    "name": "Deploy Container",
+                    "subtechniques": []
+                },
+                {
+                    "name": "Direct Volume Access",
+                    "subtechniques": []
+                },
+                {
+                    "name": "Domain or Tenant Policy Modification",
+                    "subtechniques": [
+                        "Group Policy Modification",
+                        "Trust Modification"
+                    ]
+                },
+                {
+                    "name": "Execution Guardrails",
+                    "subtechniques": [
+                        "Environmental Keying"
+                    ]
+                },
+                {
+                    "name": "Exploitation for Privilege Escalation",
+                    "subtechniques": []
+                },
+                {
+                    "name": "Exploitation for Defense Evasion",
+                    "subtechniques": []
+                },
+                {
+                    "name": "File and Directory Permissions Modification",
+                    "subtechniques": [
+                        "Windows File and Directory Permissions Modification",
+                        "Linux and Mac File and Directory Permissions Modification"
+                    ]
+                },
+                {
+                    "name": "Hide Artifacts",
+                    "subtechniques": [
+                        "Hidden Files and Directories",
+                        "Hidden Users",
+                        "Hidden Window",
+                        "NTFS File Attributes",
+                        "Hidden File System",
+                        "Run Virtual Instance",
+                        "VBA Stomping",
+                        "Email Hiding Rules",
+                        "Resource Forking",
+                        "Process Argument Spoofing",
+                        "Ignore Process Interrupts",
+                        "File/Path Exclusions"
+                    ]
+                },
+                {
+                    "name": "Hijack Execution Flow",
+                    "subtechniques": [
+                        "DLL Search Order Hijacking",
+                        "DLL Side-Loading",
+                        "Dylib Hijacking",
+                        "Executable Installer File Permissions Weakness",
+                        "Dynamic Linker Hijacking",
+                        "Path Interception by PATH Environment Variable",
+                        "Path Interception by Search Order Hijacking",
+                        "Path Interception by Unquoted Path",
+                        "Services File Permissions Weakness",
+                        "Services Registry Permissions Weakness",
+                        "COR_PROFILER",
+                        "KernelCallbackTable",
+                        "AppDomainManager"
+                    ]
+                },
+                {
+                    "name": "Impair Defenses",
+                    "subtechniques": [
+                        "Disable or Modify Tools",
+                        "Disable Windows Event Logging",
+                        "Impair Command History Logging",
+                        "Disable or Modify System Firewall",
+                        "Indicator Blocking",
+                        "Disable or Modify Cloud Firewall",
+                        "Disable or Modify Cloud Logs",
+                        "Safe Mode Boot",
+                        "Downgrade Attack",
+                        "Spoof Security Alerting",
+                        "Disable or Modify Linux Audit System"
+                    ]
+                },
+                {
+                    "name": "Impersonation",
+                    "subtechniques": []
+                },
+                {
+                    "name": "Indicator Removal",
+                    "subtechniques": [
+                        "Clear Windows Event Logs",
+                        "Clear Linux or Mac System Logs",
+                        "Clear Command History",
+                        "File Deletion",
+                        "Network Share Connection Removal",
+                        "Timestomp",
+                        "Clear Network Connection History and Configurations",
+                        "Clear Mailbox Data",
+                        "Clear Persistence"
+                    ]
+                },
+                {
+                    "name": "Indirect Command Execution",
+                    "subtechniques": []
+                },
+                {
+                    "name": "Masquerading",
+                    "subtechniques": [
+                        "Invalid Code Signature",
+                        "Right-to-Left Override",
+                        "Rename System Utilities",
+                        "Masquerade Task or Service",
+                        "Match Legitimate Name or Location",
+                        "Space after Filename",
+                        "Double File Extension",
+                        "Masquerade File Type",
+                        "Break Process Trees"
+                    ]
+                },
+                {
+                    "name": "Modify Authentication Process",
+                    "subtechniques": [
+                        "Domain Controller Authentication",
+                        "Password Filter DLL",
+                        "Pluggable Authentication Modules",
+                        "Network Device Authentication",
+                        "Reversible Encryption",
+                        "Multi-Factor Authentication",
+                        "Hybrid Identity",
+                        "Network Provider DLL",
+                        "Conditional Access Policies"
+                    ]
+                },
+                {
+                    "name": "Modify Cloud Compute Infrastructure",
+                    "subtechniques": [
+                        "Create Snapshot",
+                        "Create Cloud Instance",
+                        "Delete Cloud Instance",
+                        "Revert Cloud Instance",
+                        "Modify Cloud Compute Configurations"
+                    ]
+                },
+                {
+                    "name": "Modify Registry",
+                    "subtechniques": []
+                },
+                {
+                    "name": "Modify System Image",
+                    "subtechniques": [
+                        "Patch System Image",
+                        "Downgrade System Image"
+                    ]
+                },
+                {
+                    "name": "Network Boundary Bridging",
+                    "subtechniques": [
+                        "Network Address Translation Traversal"
+                    ]
+                },
+                {
+                    "name": "Obfuscated Files or Information",
+                    "subtechniques": [
+                        "Binary Padding",
+                        "Software Packing",
+                        "Steganography",
+                        "Compile After Delivery",
+                        "Indicator Removal from Tools",
+                        "HTML Smuggling",
+                        "Dynamic API Resolution",
+                        "Stripped Payloads",
+                        "Embedded Payloads",
+                        "Command Obfuscation",
+                        "Fileless Storage",
+                        "LNK Icon Smuggling",
+                        "Encrypted/Encoded File"
+                    ]
+                },
+                {
+                    "name": "Plist File Modification",
+                    "subtechniques": []
+                },
+                {
+                    "name": "Pre-OS Boot",
+                    "subtechniques": [
+                        "System Firmware",
+                        "Component Firmware",
+                        "Bootkit",
+                        "ROMMONkit",
+                        "TFTP Boot"
+                    ]
+                },
+                {
+                    "name": "Process Injection",
+                    "subtechniques": [
+                        "Dynamic-link Library Injection",
+                        "Portable Executable Injection",
+                        "Thread Execution Hijacking",
+                        "Asynchronous Procedure Call",
+                        "Thread Local Storage",
+                        "Ptrace System Calls",
+                        "Proc Memory",
+                        "Extra Window Memory Injection",
+                        "Process Hollowing",
+                        "Process DoppelgÃ¤nging",
+                        "VDSO Hijacking",
+                        "ListPlanting"
+                    ]
+                },
+                {
+                    "name": "Reflective Code Loading",
+                    "subtechniques": []
+                },
+                {
+                    "name": "Rogue Domain Controller",
+                    "subtechniques": []
+                },
+                {
+                    "name": "Rootkit",
+                    "subtechniques": []
+                },
+                {
+                    "name": "Subvert Trust Controls",
+                    "subtechniques": [
+                        "Gatekeeper Bypass",
+                        "Code Signing",
+                        "SIP and Trust Provider Hijacking",
+                        "Install Root Certificate",
+                        "Mark-of-the-Web Bypass",
+                        "Code Signing Policy Modification"
+                    ]
+                },
+                {
+                    "name": "System Binary Proxy Execution",
+                    "subtechniques": [
+                        "Compiled HTML File",
+                        "Control Panel",
+                        "CMSTP",
+                        "InstallUtil",
+                        "Mshta",
+                        "Msiexec",
+                        "Odbcconf",
+                        "Regsvcs/Regasm",
+                        "Regsvr32",
+                        "Rundll32",
+                        "Verclsid",
+                        "Mavinject",
+                        "MMC",
+                        "Electron Applications"
+                    ]
+                },
+                {
+                    "name": "System Script Proxy Execution",
+                    "subtechniques": [
+                        "PubPrn",
+                        "SyncAppvPublishingServer"
+                    ]
+                },
+                {
+                    "name": "System Binary Proxy Execution",
+                    "subtechniques": [
+                        "Compiled HTML File",
+                        "Control Panel",
+                        "CMSTP",
+                        "InstallUtil",
+                        "Mshta",
+                        "Msiexec",
+                        "Odbcconf",
+                        "Regsvcs/Regasm",
+                        "Regsvr32",
+                        "Rundll32",
+                        "Verclsid",
+                        "Mavinject",
+                        "MMC",
+                        "Electron Applications"
+                    ]
+                },
+                {
+                    "name": "Template Injection",
+                    "subtechniques": []
+                },
+                {
+                    "name": "Traffic Signaling",
+                    "subtechniques": [
+                        "Port Knocking",
+                        "Socket Filters"
+                    ]
+                },
+                {
+                    "name": "Trusted Developer Utilities Proxy Execution",
+                    "subtechniques": [
+                        "MSBuild"
+                    ]
+                },
+                {
+                    "name": "Unused/Unsupported Cloud Regions",
+                    "subtechniques": []
+                },
+                {
+                    "name": "Use Alternate Authentication Material",
+                    "subtechniques": [
+                        "Application Access Token",
+                        "Pass the Hash",
+                        "Pass the Ticket",
+                        "Web Session Cookie"
+                    ]
+                },
+                {
+                    "name": "Valid Accounts",
+                    "subtechniques": [
+                        "Default Accounts",
+                        "Domain Accounts",
+                        "Local Accounts",
+                        "Cloud Accounts"
+                    ]
+                },
+                {
+                    "name": "Virtualization/Sandbox Evasion",
+                    "subtechniques": [
+                        "System Checks",
+                        "User Activity Based Checks",
+                        "Time Based Evasion"
+                    ]
+                },
+                {
+                    "name": "Weaken Encryption",
+                    "subtechniques": [
+                        "Reduce Key Space",
+                        "Disable Crypto Hardware"
+                    ]
+                },
+                {
+                    "name": "XSL Script Processing",
+                    "subtechniques": []
+                }
+            ]
+        },
+        {
+            "name": "Credential Access",
+            "techniques": [
+                {
+                    "name": "Adversary-in-the-Middle",
+                    "subtechniques": [
+                        "LLMNR/NBT-NS Poisoning and SMB Relay",
+                        "ARP Cache Poisoning",
+                        "DHCP Spoofing"
+                    ]
+                },
+                {
+                    "name": "Brute Force",
+                    "subtechniques": [
+                        "Password Guessing",
+                        "Password Cracking",
+                        "Password Spraying",
+                        "Credential Stuffing"
+                    ]
+                },
+                {
+                    "name": "Credentials from Password Stores",
+                    "subtechniques": [
+                        "Keychain",
+                        "Securityd Memory",
+                        "Credentials from Web Browsers",
+                        "Windows Credential Manager",
+                        "Password Managers",
+                        "Cloud Secrets Management Stores"
+                    ]
+                },
+                {
+                    "name": "Exploitation for Credential Access",
+                    "subtechniques": []
+                },
+                {
+                    "name": "Forced Authentication",
+                    "subtechniques": []
+                },
+                {
+                    "name": "Forge Web Credentials",
+                    "subtechniques": [
+                        "Web Cookies",
+                        "SAML Tokens"
+                    ]
+                },
+                {
+                    "name": "Input Capture",
+                    "subtechniques": [
+                        "Keylogging",
+                        "GUI Input Capture",
+                        "Web Portal Capture",
+                        "Credential API Hooking"
+                    ]
+                },
+                {
+                    "name": "Modify Authentication Process",
+                    "subtechniques": [
+                        "Domain Controller Authentication",
+                        "Password Filter DLL",
+                        "Pluggable Authentication Modules",
+                        "Network Device Authentication",
+                        "Reversible Encryption",
+                        "Multi-Factor Authentication",
+                        "Hybrid Identity",
+                        "Network Provider DLL",
+                        "Conditional Access Policies"
+                    ]
+                },
+                {
+                    "name": "Multi-Factor Authentication Interception",
+                    "subtechniques": []
+                },
+                {
+                    "name": "Multi-Factor Authentication Request Generation",
+                    "subtechniques": []
+                },
+                {
+                    "name": "Network Sniffing",
+                    "subtechniques": []
+                },
+                {
+                    "name": "OS Credential Dumping",
+                    "subtechniques": [
+                        "LSASS Memory",
+                        "Security Account Manager",
+                        "NTDS",
+                        "LSA Secrets",
+                        "Cached Domain Credentials",
+                        "DCSync",
+                        "Proc Filesystem",
+                        "/etc/passwd and /etc/shadow"
+                    ]
+                },
+                {
+                    "name": "Steal Application Access Token",
+                    "subtechniques": []
+                },
+                {
+                    "name": "Steal or Forge Authentication Certificates",
+                    "subtechniques": []
+                },
+                {
+                    "name": "Steal or Forge Kerberos Tickets",
+                    "subtechniques": [
+                        "Golden Ticket",
+                        "Silver Ticket",
+                        "Kerberoasting",
+                        "AS-REP Roasting"
+                    ]
+                },
+                {
+                    "name": "Steal Web Session Cookie",
+                    "subtechniques": []
+                },
+                {
+                    "name": "Unsecured Credentials",
+                    "subtechniques": [
+                        "Credentials In Files",
+                        "Credentials in Registry",
+                        "Bash History",
+                        "Private Keys",
+                        "Cloud Instance Metadata API",
+                        "Group Policy Preferences",
+                        "Container API",
+                        "Chat Messages"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Discovery",
+            "techniques": [
+                {
+                    "name": "Account Discovery",
+                    "subtechniques": [
+                        "Local Account",
+                        "Domain Account",
+                        "Email Account",
+                        "Cloud Account"
+                    ]
+                },
+                {
+                    "name": "Application Window Discovery",
+                    "subtechniques": []
+                },
+                {
+                    "name": "Browser Information Discovery",
+                    "subtechniques": []
+                },
+                {
+                    "name": "Cloud Infrastructure Discovery",
+                    "subtechniques": []
+                },
+                {
+                    "name": "Cloud Service Dashboard",
+                    "subtechniques": []
+                },
+                {
+                    "name": "Cloud Service Dashboard",
+                    "subtechniques": []
+                },
+                {
+                    "name": "Cloud Storage Object Discovery",
+                    "subtechniques": []
+                },
+                {
+                    "name": "Container and Resource Discovery",
+                    "subtechniques": []
+                },
+                {
+                    "name": "Container and Resource Discovery",
+                    "subtechniques": []
+                },
+                {
+                    "name": "Debugger Evasion",
+                    "subtechniques": []
+                },
+                {
+                    "name": "Device Driver Discovery",
+                    "subtechniques": []
+                },
+                {
+                    "name": "Device Driver Discovery",
+                    "subtechniques": []
+                },
+                {
+                    "name": "Domain Trust Discovery",
+                    "subtechniques": []
+                },
+                {
+                    "name": "File and Directory Discovery",
+                    "subtechniques": []
+                },
+                {
+                    "name": "Group Policy Discovery",
+                    "subtechniques": []
+                },
+                {
+                    "name": "Log Enumeration",
+                    "subtechniques": []
+                },
+                {
+                    "name": "Network Service Discovery",
+                    "subtechniques": []
+                },
+                {
+                    "name": "Network Share Discovery",
+                    "subtechniques": []
+                },
+                {
+                    "name": "Network Sniffing",
+                    "subtechniques": []
+                },
+                {
+                    "name": "Password Policy Discovery",
+                    "subtechniques": []
+                },
+                {
+                    "name": "Peripheral Device Discovery",
+                    "subtechniques": []
+                },
+                {
+                    "name": "Permission Groups Discovery",
+                    "subtechniques": [
+                        "Local Groups",
+                        "Domain Groups",
+                        "Cloud Groups"
+                    ]
+                },
+                {
+                    "name": "Process Discovery",
+                    "subtechniques": []
+                },
+                {
+                    "name": "Query Registry",
+                    "subtechniques": []
+                },
+                {
+                    "name": "Remote System Discovery",
+                    "subtechniques": []
+                },
+                {
+                    "name": "Software Discovery",
+                    "subtechniques": [
+                        "Security Software Discovery"
+                    ]
+                },
+                {
+                    "name": "System Information Discovery",
+                    "subtechniques": []
+                },
+                {
+                    "name": "System Location Discovery",
+                    "subtechniques": [
+                        "System Language Discovery"
+                    ]
+                },
+                {
+                    "name": "System Network Configuration Discovery",
+                    "subtechniques": [
+                        "Internet Connection Discovery",
+                        "Wi-Fi Discovery"
+                    ]
+                },
+                {
+                    "name": "System Network Connections Discovery",
+                    "subtechniques": []
+                },
+                {
+                    "name": "System Owner/User Discovery",
+                    "subtechniques": []
+                },
+                {
+                    "name": "System Service Discovery",
+                    "subtechniques": []
+                },
+                {
+                    "name": "System Time Discovery",
+                    "subtechniques": []
+                },
+                {
+                    "name": "Virtualization/Sandbox Evasion",
+                    "subtechniques": [
+                        "System Checks",
+                        "User Activity Based Checks",
+                        "Time Based Evasion"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Lateral Movement",
+            "techniques": [
+                {
+                    "name": "Exploitation of Remote Services",
+                    "subtechniques": []
+                },
+                {
+                    "name": "Internal Spearphishing",
+                    "subtechniques": []
+                },
+                {
+                    "name": "Lateral Tool Transfer",
+                    "subtechniques": []
+                },
+                {
+                    "name": "Remote Service Session Hijacking",
+                    "subtechniques": [
+                        "SSH Hijacking",
+                        "RDP Hijacking"
+                    ]
+                },
+                {
+                    "name": "Remote Services",
+                    "subtechniques": [
+                        "Remote Desktop Protocol",
+                        "SMB/Windows Admin Shares",
+                        "Distributed Component Object Model",
+                        "SSH",
+                        "VNC",
+                        "Windows Remote Management",
+                        "Cloud Services",
+                        "Direct Cloud VM Connections"
+                    ]
+                },
+                {
+                    "name": "Replication Through Removable Media",
+                    "subtechniques": []
+                },
+                {
+                    "name": "Software Deployment Tools",
+                    "subtechniques": []
+                },
+                {
+                    "name": "Taint Shared Content",
+                    "subtechniques": []
+                },
+                {
+                    "name": "Use Alternate Authentication Material",
+                    "subtechniques": [
+                        "Use Alternate Authentication Material&nbsp;<sub>(4)</sub>",
+                        "Application Access Token",
+                        "Pass the Hash",
+                        "Pass the Ticket",
+                        "Web Session Cookie"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Collection",
+            "techniques": [
+                {
+                    "name": "Adversary-in-the-Middle",
+                    "subtechniques": [
+                        "LLMNR/NBT-NS Poisoning and SMB Relay",
+                        "ARP Cache Poisoning",
+                        "DHCP Spoofing"
+                    ]
+                },
+                {
+                    "name": "Archive Collected Data",
+                    "subtechniques": [
+                        "Archive via Utility",
+                        "Archive via Library",
+                        "Archive via Custom Method"
+                    ]
+                },
+                {
+                    "name": "Audio Capture",
+                    "subtechniques": []
+                },
+                {
+                    "name": "Automated Collection",
+                    "subtechniques": []
+                },
+                {
+                    "name": "Browser Session Hijacking",
+                    "subtechniques": []
+                },
+                {
+                    "name": "Clipboard Data",
+                    "subtechniques": []
+                }
+            ]
+        },
+        {
+            "name": "Collection",
+            "techniques": [
+                {
+                    "name": "Adversary-in-the-Middle",
+                    "subtechniques": [
+                        "LLMNR/NBT-NS Poisoning and SMB Relay",
+                        "ARP Cache Poisoning",
+                        "DHCP Spoofing"
+                    ]
+                },
+                {
+                    "name": "Archive Collected Data",
+                    "subtechniques": [
+                        "Archive via Utility",
+                        "Archive via Library",
+                        "Archive via Custom Method"
+                    ]
+                },
+                {
+                    "name": "Audio Capture",
+                    "subtechniques": []
+                },
+                {
+                    "name": "Automated Collection",
+                    "subtechniques": []
+                },
+                {
+                    "name": "Browser Session Hijacking",
+                    "subtechniques": []
+                },
+                {
+                    "name": "Clipboard Data",
+                    "subtechniques": []
+                },
+                {
+                    "name": "Data from Cloud Storage",
+                    "subtechniques": []
+                },
+                {
+                    "name": "Data from Configuration Repository",
+                    "subtechniques": [
+                        "SNMP (MIB Dump)",
+                        "Network Device Configuration Dump"
+                    ]
+                },
+                {
+                    "name": "Data from Information Repositories",
+                    "subtechniques": [
+                        "Confluence",
+                        "Sharepoint",
+                        "Code Repositories"
+                    ]
+                },
+                {
+                    "name": "Data from Local System",
+                    "subtechniques": []
+                },
+                {
+                    "name": "Data from Network Shared Drive",
+                    "subtechniques": []
+                },
+                {
+                    "name": "Data from Removable Media",
+                    "subtechniques": []
+                },
+                {
+                    "name": "Data Staged",
+                    "subtechniques": [
+                        "Local Data Staging",
+                        "Remote Data Staging"
+                    ]
+                },
+                {
+                    "name": "Email Collection",
+                    "subtechniques": [
+                        "Local Email Collection",
+                        "Remote Email Collection",
+                        "Email Forwarding Rule"
+                    ]
+                },
+                {
+                    "name": "Input Capture",
+                    "subtechniques": [
+                        "Keylogging",
+                        "GUI Input Capture",
+                        "Web Portal Capture",
+                        "Credential API Hooking"
+                    ]
+                },
+                {
+                    "name": "Screen Capture",
+                    "subtechniques": []
+                },
+                {
+                    "name": "Video Capture",
+                    "subtechniques": []
+                }
+            ]
+        },
+        {
+            "name": "Command and Control",
+            "techniques": [
+                {
+                    "name": "Application Layer Protocol",
+                    "subtechniques": [
+                        "Web Protocols",
+                        "File Transfer Protocols",
+                        "Mail Protocols",
+                        "DNS"
+                    ]
+                },
+                {
+                    "name": "Communication Through Removable Media",
+                    "subtechniques": []
+                },
+                {
+                    "name": "Content Injection",
+                    "subtechniques": []
+                },
+                {
+                    "name": "Data Encoding",
+                    "subtechniques": [
+                        "Standard Encoding",
+                        "Non-Standard Encoding"
+                    ]
+                },
+                {
+                    "name": "Data Obfuscation",
+                    "subtechniques": [
+                        "Junk Data",
+                        "Steganography",
+                        "Protocol Impersonation"
+                    ]
+                },
+                {
+                    "name": "Dynamic Resolution",
+                    "subtechniques": [
+                        "Fast Flux DNS",
+                        "Domain Generation Algorithms",
+                        "DNS Calculation"
+                    ]
+                },
+                {
+                    "name": "Encrypted Channel",
+                    "subtechniques": [
+                        "Symmetric Cryptography",
+                        "Asymmetric Cryptography"
+                    ]
+                },
+                {
+                    "name": "Fallback Channels",
+                    "subtechniques": []
+                },
+                {
+                    "name": "Hide Infrastructure",
+                    "subtechniques": []
+                },
+                {
+                    "name": "Ingress Tool Transfer",
+                    "subtechniques": []
+                },
+                {
+                    "name": "Multi-Stage Channels",
+                    "subtechniques": []
+                },
+                {
+                    "name": "Non-Application Layer Protocol",
+                    "subtechniques": []
+                },
+                {
+                    "name": "Non-Standard Port",
+                    "subtechniques": []
+                },
+                {
+                    "name": "Protocol Tunneling",
+                    "subtechniques": []
+                },
+                {
+                    "name": "Proxy",
+                    "subtechniques": [
+                        "Internal Proxy",
+                        "External Proxy",
+                        "Multi-hop Proxy",
+                        "Domain Fronting"
+                    ]
+                },
+                {
+                    "name": "Remote Access Software",
+                    "subtechniques": []
+                },
+                {
+                    "name": "Traffic Signaling",
+                    "subtechniques": [
+                        "Port Knocking",
+                        "Socket Filters"
+                    ]
+                },
+                {
+                    "name": "Web Service",
+                    "subtechniques": [
+                        "Dead Drop Resolver",
+                        "Bidirectional Communication",
+                        "One-Way Communication"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Exfiltration",
+            "techniques": [
+                {
+                    "name": "Automated Exfiltration",
+                    "subtechniques": [
+                        "Traffic Duplication"
+                    ]
+                },
+                {
+                    "name": "Data Transfer Size Limits",
+                    "subtechniques": []
+                },
+                {
+                    "name": "Exfiltration Over Alternative Protocol",
+                    "subtechniques": [
+                        "Exfiltration Over Symmetric Encrypted Non-C2 Protocol",
+                        "Exfiltration Over Asymmetric Encrypted Non-C2 Protocol",
+                        "Exfiltration Over Unencrypted Non-C2 Protocol"
+                    ]
+                },
+                {
+                    "name": "Exfiltration Over C2 Channel",
+                    "subtechniques": []
+                },
+                {
+                    "name": "Exfiltration Over Other Network Medium",
+                    "subtechniques": [
+                        "Exfiltration Over Bluetooth"
+                    ]
+                },
+                {
+                    "name": "Exfiltration Over Physical Medium",
+                    "subtechniques": [
+                        "Exfiltration over USB"
+                    ]
+                },
+                {
+                    "name": "Exfiltration Over Web Service",
+                    "subtechniques": [
+                        "Exfiltration to Code Repository",
+                        "Exfiltration to Cloud Storage",
+                        "Exfiltration to Text Storage Sites",
+                        "Exfiltration Over Webhook"
+                    ]
+                },
+                {
+                    "name": "Scheduled Transfer",
+                    "subtechniques": []
+                },
+                {
+                    "name": "Transfer Data to Cloud Account",
+                    "subtechniques": []
+                }
+            ]
+        },
+        {
+            "name": "Impact",
+            "techniques": [
+                {
+                    "name": "Account Access Removal",
+                    "subtechniques": []
+                },
+                {
+                    "name": "Data Destruction",
+                    "subtechniques": []
+                },
+                {
+                    "name": "Data Encrypted for Impact",
+                    "subtechniques": []
+                },
+                {
+                    "name": "Data Manipulation",
+                    "subtechniques": [
+                        "Stored Data Manipulation",
+                        "Transmitted Data Manipulation",
+                        "Runtime Data Manipulation"
+                    ]
+                },
+                {
+                    "name": "Defacement",
+                    "subtechniques": [
+                        "Internal Defacement",
+                        "External Defacement"
+                    ]
+                },
+                {
+                    "name": "Disk Wipe",
+                    "subtechniques": [
+                        "Disk Content Wipe",
+                        "Disk Structure Wipe"
+                    ]
+                },
+                {
+                    "name": "Endpoint Denial of Service",
+                    "subtechniques": [
+                        "OS Exhaustion Flood",
+                        "Service Exhaustion Flood",
+                        "Application Exhaustion Flood",
+                        "Application or System Exploitation"
+                    ]
+                },
+                {
+                    "name": "Financial Theft",
+                    "subtechniques": []
+                },
+                {
+                    "name": "Firmware Corruption",
+                    "subtechniques": []
+                },
+                {
+                    "name": "Inhibit System Recovery",
+                    "subtechniques": []
+                },
+                {
+                    "name": "Network Denial of Service",
+                    "subtechniques": [
+                        "Direct Network Flood",
+                        "Reflection Amplification"
+                    ]
+                },
+                {
+                    "name": "Resource Hijacking",
+                    "subtechniques": []
+                },
+                {
+                    "name": "Service Stop",
+                    "subtechniques": []
+                },
+                {
+                    "name": "System Shutdown/Reboot",
+                    "subtechniques": []
+                }
+            ]
+        }
+    ]
+}

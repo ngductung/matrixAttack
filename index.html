@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quản lý Kỹ Thuật</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <button id="modeToggle">Switch to Dark Mode</button>
+    <div class="tables-container">
+      <table>
+        <thead></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <textarea id="noteArea" style="display: none"></textarea>
+    <button id="exportButton" onclick="exportData()">Export</button>
+    <input
+      type="file"
+      id="importInput"
+      accept=".json"
+      onchange="importData(event)"
+    />
+
+    <script src="script.js"></script>
+  </body>
+</html>

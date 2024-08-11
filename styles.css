@@ -1,0 +1,275 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+.tables-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+table {
+  width: 94%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  background-color: #fff;
+  table-layout: auto;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px 12px;
+  text-align: left;
+  vertical-align: top;
+  position: relative;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 8px 12px;
+  text-decoration: none;
+  display: block;
+  border-bottom: 1px solid #ddd;
+  cursor: pointer;
+}
+
+.dropdown-content a:hover {
+  background-color: #f5cccc;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+  left: 0;
+  top: 100%;
+  width: 100%;
+}
+
+.sub-dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+  left: 100%;
+  top: 0;
+  width: 150px;
+}
+
+.dropdown-content a:hover + .sub-dropdown-content,
+.sub-dropdown-content:hover {
+  display: block;
+}
+
+th:hover .dropdown-content {
+  display: block;
+}
+
+.selected-technique {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 5px 0;
+  padding: 5px 10px;
+  background-color: #3498db;
+  color: white;
+  border-radius: 3px;
+  text-decoration: none;
+}
+
+.selected-technique:hover {
+  background-color: #2980b9;
+}
+
+.remove-btn {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  padding: 2px 5px;
+  margin-left: 10px;
+}
+
+.remove-btn:hover {
+  background-color: #c0392b;
+}
+
+.selected-techniques {
+  margin-top: 10px;
+  min-height: 30px;
+}
+
+.note-section {
+  width: 35%;
+  padding-left: 20px;
+}
+
+textarea {
+  width: 100%;
+  height: 200px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  resize: none;
+}
+
+body.dark-mode {
+  background-color: #333;
+  color: #fff;
+}
+
+body.dark-mode .selected-technique {
+  background-color: #444;
+  color: #fff;
+}
+
+body.dark-mode .selected-technique:hover {
+  background-color: #555;
+}
+
+body.dark-mode .remove-btn {
+  background-color: #666;
+  color: #fff;
+}
+
+body.dark-mode .dropdown-content {
+  background-color: #444;
+  color: #fff;
+}
+
+body.dark-mode #noteArea {
+  background-color: #222;
+  color: #fff;
+}
+
+body.dark-mode table {
+  background-color: #555;
+}
+
+body.dark-mode th,
+body.dark-mode td {
+  border-color: #666;
+  color: #ccc;
+}
+
+button#modeToggle,
+button#exportButton {
+  padding: 8px 16px;
+  font-size: 14px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  background-color: #3498db;
+  color: white;
+  transition: background-color 0.3s ease;
+  margin: 5px;
+}
+
+button#modeToggle:hover,
+button#exportButton:hover {
+  background-color: #2980b9;
+}
+
+input[type="file"] {
+  padding: 6px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #fff;
+  color: #333;
+}
+
+input[type="file"]::-webkit-file-upload-button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 6px 12px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+input[type="file"]::-webkit-file-upload-button:hover {
+  background-color: #2980b9;
+}
+
+.sub-dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+  left: 100%;
+  width: 150px;
+}
+
+.dropdown-content a:hover .sub-dropdown-content {
+  display: block;
+}
+
+.subtechniques-dropdown {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+  left: 50%;
+  width: 200px;
+}
+
+.dropdown-content a:hover .subtechniques-dropdown {
+  display: block;
+}
+
+.subtechniques-dropdown a {
+  color: black;
+  padding: 8px 12px;
+  text-decoration: none;
+  display: block;
+  border-bottom: 1px solid #ddd;
+  cursor: pointer;
+}
+
+.subtechniques-dropdown a:hover {
+  background-color: #f1f1f1;
+}
+
+.selected-technique.selected {
+  background-color: #e74c3c;
+}
+
+.note-section {
+  display: none;
+}
+
+.note-section.visible {
+  display: block;
+}
