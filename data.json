@@ -1418,43 +1418,6 @@
                 {
                     "name": "Clipboard Data",
                     "subtechniques": []
-                }
-            ]
-        },
-        {
-            "name": "Collection",
-            "techniques": [
-                {
-                    "name": "Adversary-in-the-Middle",
-                    "subtechniques": [
-                        "LLMNR/NBT-NS Poisoning and SMB Relay",
-                        "ARP Cache Poisoning",
-                        "DHCP Spoofing"
-                    ]
-                },
-                {
-                    "name": "Archive Collected Data",
-                    "subtechniques": [
-                        "Archive via Utility",
-                        "Archive via Library",
-                        "Archive via Custom Method"
-                    ]
-                },
-                {
-                    "name": "Audio Capture",
-                    "subtechniques": []
-                },
-                {
-                    "name": "Automated Collection",
-                    "subtechniques": []
-                },
-                {
-                    "name": "Browser Session Hijacking",
-                    "subtechniques": []
-                },
-                {
-                    "name": "Clipboard Data",
-                    "subtechniques": []
                 },
                 {
                     "name": "Data from Cloud Storage",
