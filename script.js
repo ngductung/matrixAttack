@@ -32,6 +32,7 @@ function loadDataFromJson(jsonData) {
 
     step.techniques.forEach((technique) => {
       const techniqueLink = document.createElement("a");
+      techniqueLink.className="sub-dropdown-content";
       techniqueLink.href = "#";
       techniqueLink.textContent = technique.name;
 
